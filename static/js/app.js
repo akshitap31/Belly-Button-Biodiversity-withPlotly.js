@@ -55,7 +55,7 @@ function init(name='940') {
                       gauge: { axis: { range: [null, 9] } }
                     }
                   ];
-                  var layout = { width: 600, height: 400 };
+                  var layout = { width: 600, height: 400 , title: {text: "<b> Belly Button Washing Frequency </b> <br> Scrubs per Week"}};
                   Plotly.newPlot('gauge', data, layout);      
             }
             });
