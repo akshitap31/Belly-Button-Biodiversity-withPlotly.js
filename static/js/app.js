@@ -41,6 +41,11 @@ function init(name='940') {
                     }
                 };
                 var data1=[trace]
+                var layout={
+                    xaxis: {
+                        title: "OTU ID"
+                    }
+                }
                 Plotly.newPlot("bubble", data1)
                 // Gauge chart              
                 var frq = meta.wfreq;
@@ -48,7 +53,6 @@ function init(name='940') {
                     {
                       domain: { x: [0, 1], y: [0, 1] },
                       value: frq,
-                      title: { text: "Speed" },
                       type: "indicator",
                       mode: "gauge+number",
                       delta: { reference: 400 },
