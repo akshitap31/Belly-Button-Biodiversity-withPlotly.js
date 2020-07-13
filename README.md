@@ -1,7 +1,7 @@
 # Belly Button Biodiversity
  A study revealed that belly buttons are indeed a jungle of microbial diversity, having detected over 2300 species in those 60 navels. This project creates an interactive dashboard to visualize the findings of the study and make it available for the users.
 
-## Tools and Technologies used and required to run the file
+## Tools and Technologies used
 * JavaScript-Plotly, D3
 * HTML
 * Github Pages (for deployment)
