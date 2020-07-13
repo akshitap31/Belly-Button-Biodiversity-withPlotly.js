@@ -28,7 +28,21 @@ function init(name='940') {
                     orientation: "h",
                     hoverinfo: "x+y"
                 }]
-                Plotly.newPlot("bar", data)
+                var layout={
+                    yaxis: {
+                        title: "OTU ID"
+                    },
+                    xaxis: {
+                        title: "Sequential Read Numbers"
+                    },
+                    title: {
+                        text: "<b>Top 10 OTU (Operational Taxonomic Units)</b>",
+                        // font:{
+                        //     weight: bold
+                        // }
+                    }
+                }
+                Plotly.newPlot("bar", data, layout)
                 // Bubble chart
                 var trace={
                     x: otu_ids,
@@ -41,12 +55,18 @@ function init(name='940') {
                     }
                 };
                 var data1=[trace]
-                var layout={
+                var layout1={
+                    yaxis: {
+                        title: "Sequential Read Numbers"
+                    },
                     xaxis: {
                         title: "OTU ID"
+                    },
+                    title: {
+                        text: `<b>All OTU (Operational Taxonomic Units) in the Belly Button of the subject ID ${selected} </b>`
                     }
                 }
-                Plotly.newPlot("bubble", data1)
+                Plotly.newPlot("bubble", data1, layout1)
                 // Gauge chart              
                 var frq = meta.wfreq;
                 var data = [
