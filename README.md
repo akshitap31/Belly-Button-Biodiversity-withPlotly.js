@@ -10,7 +10,7 @@
 Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
 
 ## How to run the code
-* Go to [this link](https://akshitap31.github.io/plotly-challenge/index.html)
+* Go to [this link](https://akshitap31.github.io/Belly-Button-Biodiversity-withPlotly.js/index.html)
 and play around with different test subject IDs
 
 ## Output
